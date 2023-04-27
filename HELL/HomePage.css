@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1450px;
+    margin: auto;
+}
+
+header nav img {
+    width: 90px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header div nav ul li a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    font-weight: light;
+    display: inline;
+    padding-left: 50px;
+}
+
+header nav ul li p {
+    margin-left: 30px;
+}
+
+header .menu {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+header .menu p {
+    background-color: black;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    font-weight: light;
+    margin-left: 5px;
+    border: 20px solid black;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+header .menu i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+header nav form {
+    position: relative;
+}
+
+header nav form label {
+    position: absolute;
+    top: 33%;
+    left: 10px;
+}
+
+header nav form input {
+    width: 590px;
+    height: 56px;
+    background-color: rgb(247, 247, 247);
+    border: none;
+    outline: none;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 35px;
+    border-radius: 10px;
+}
+
+.shopping {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0.1;
+}
+
+.shopping i {
+    font-size: 30px;
+}
+
+.shopping .wishlist {
+    position: relative;
+}
+
+
+.shopping .basket {
+    position: relative;
+}
+
+.shopping sup {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: baseline;
+    margin-top: 150px;
+    border-radius: 10px;
+}
+
+
+.slide img {
+    width: 100%;
+}
+
+.navigation-manual {
+    position: absolute;
+    margin-top: -40px;
+    display: flex;
+    justify-content: start;
+}
+
+.manual-btn {
+    border: 2px solid floralwhite;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.manual-btn:not(:last-child) {
+    margin-right: 15%;
+}
+
+h1 {
+    margin-left: 3%;
+}
+
+.Browse button {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-wrap: nowrap; */
+    margin-left: 50px;
+    display: inline;
+    background-color: aqua;
+    border-radius: 10px;
+    border: none;
+}
+
+.photoadv img {
+    display: inline;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+h3 {
+    display: inline;
+    margin-left: 30px;
+}
+
+.products img {
+    margin-left: 35px;
+}
+
+.products img:hover {
+    box-shadow: 2px 0px 10px 0px black, 0px 2px 10px 0px black;
+}
+
+.brends h1 {
+    color: #fff;
+}
+
+.brends h2 {
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.brends-content {
+    border-radius: 10px;
+    background-color: teal;
+}
+
+.brends button {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    height: 70px;
+    display: inline-block;
+    margin-left: 40px;
+    background-color: #fff;
+}
+
+.nothing {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#red {
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+#percent {
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.girls {
+    display: flex;
+    justify-content: baseline;
+    cursor: pointer;
+    flex-wrap: nowrap;
+}
+
+.useless {
+    display: flex;
+    justify-content: baseline;
+}
