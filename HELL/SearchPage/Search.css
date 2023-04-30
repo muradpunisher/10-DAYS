@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chest {
+    max-width: 1450px;
+    margin: auto;
+}
+
+header nav img {
+    width: 90px;
+}
